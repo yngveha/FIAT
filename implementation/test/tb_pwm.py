@@ -341,7 +341,6 @@ class FaultInjector():
         self.dut.dir.value = Release()
         self.dut.duty_cycle.value = Release()
         
-    
     async def disable_reset(self):
         self.dut.reset.value = Force(0)
         await Timer(20, 'ns')
