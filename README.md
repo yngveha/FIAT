@@ -19,7 +19,7 @@ The intention is to weed out dysfunctional designs before implementation and avo
 
 The testbench does also check that the module work according to the assignment text. 
 The text for the assignment and the solution is not a part of this repository, since they are both subject to change and still in use. 
-To provide the ability to test the testbench, a non-synthesizable simulation model of a pulse with modulator is included.
+To provide the ability to test the testbench, a non-synthesizable simulation model of a pulse width modulator is included.
 The simulation module does model PWM, but neither in a way that would be safe nor according to the assignment text, hence it will trigger and demonstrate error reporting. 
 
 The testbench starts all checkers and performs tests as long as the VHDL files compiles. 
