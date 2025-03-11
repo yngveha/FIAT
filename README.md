@@ -4,9 +4,10 @@ The paper will be presented on the Reconfigurable Architectures Workshop (RAW) i
 Link to the paper in IEEE-Xplore will be posted here later. 
 
 ## Usage examples
-The usage examples folder contains code examples that demonstrates FIAT testing properties. 
+This folder contains code examples that demonstrates FIAT-testing properties. 
+These code examples are the full version of the code shown in the paper. 
 Both VHDL and Python examples are included, along with test results. 
-These examples are made to encapsulate principles described in the paper in a compact form. 
+The examples are made to encapsulate principles described in the paper in a compact form. 
 
 ## Implementation
 The implementation folder contains a VHDL simulation model and a testbench implemented with FIAT testing to ensure that each test would find errors in the testbench design. 
