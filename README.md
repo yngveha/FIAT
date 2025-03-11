@@ -28,7 +28,7 @@ The testbench has two main tests, FIAT tests and an ordinary test.
 Ideally the FIAT tests should be completed before the ordinary tests[^1]. 
 Depending on which simulation tool is used, reporting will happen either during or after each test.  
 
-### Structure of PWM module testbench
+### Structure of the PWM module testbench
 
 The testbench code is organized using classes as follows:
 * A Queue extension to enable parsing message Queues used in both ordinary and FIAT tests
