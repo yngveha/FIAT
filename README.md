@@ -9,8 +9,8 @@ These code examples are the full version of the code shown in the paper.
 Both VHDL and Python examples are included, along with test results. 
 The examples are made to encapsulate principles described in the paper in a compact form. 
 
-## Implementation
-The implementation folder contains a VHDL simulation model and a testbench implemented with FIAT testing to ensure that each test would find errors in the testbench design. 
+## Usecase
+The usecase folder contains a VHDL simulation model and a testbench implemented with FIAT testing to ensure that each ordinary test would find errors. 
 This testbench is an actual usecase for non-invasive FIAT-testing, and showcases how FIAT methods implemented for practical purposes. 
 This testbench is written in Python for use with Cocotb and Questa or GHDL. 
 The makefile is set up for Questa, but GHDL can be used with minor changes[^1]. 
