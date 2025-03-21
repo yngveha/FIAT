@@ -3,6 +3,17 @@ This repository contains the source code presented and discussed in the paper "T
 The paper will be presented on the Reconfigurable Architectures Workshop (RAW) in Milano June 2025. 
 Link to the paper in IEEE-Xplore will be posted here later. 
 
+## Versions 
+
+### GHDL 
+The GHDL folder contains usage examples and the usecase, all set up for GHDL5.0.1, along with cocotb 1.9.2 and python 3.13.
+The usecase is updated to work with the newer python/numpy implementation. 
+The usecase also features a couple fixes to run well with GHDL5.0.1. 
+
+### Questa 
+The questa folder contains usage examples and the usecase, all set up for Questa Sim-64 Version 2020.4 linux_x86_64 Oct 13 2020, along with cocotb 1.9.2 and python 3.11. 
+It is possible to modify this to run using GHDL4.0.0 (se comments in code), but using the updated GHDL version is a better alternative.   
+
 ## Usage examples
 This folder contains code examples that demonstrates FIAT-testing properties. 
 These code examples are the full version of the code shown in the paper. 
@@ -13,7 +24,6 @@ The examples are made to encapsulate principles described in the paper in a comp
 The usecase folder contains a VHDL simulation model and a testbench implemented with FIAT testing to ensure that each ordinary test would find errors. 
 This testbench is an actual usecase for non-invasive FIAT-testing, and showcases how FIAT methods implemented for practical purposes. 
 This testbench is written in Python for use with Cocotb and Questa or GHDL. 
-The makefile is set up for Questa, but GHDL can be used with minor changes[^1]. 
 
 The testbench itself is intended to find errors in student designs of a pulse width (PWM) or pulse density modulating circuit. 
 The intention is to weed out dysfunctional designs before implementation and avoid burning circuits in the lab. 
@@ -44,5 +54,3 @@ Central to the FaultInjector is the run method which creates and run through a l
 Injected faults that are not observed by the ordinary checkers will be reported as an error.
 
 To have both FIAT-tests and ordinary tests run together, using a queue for assertion errors allowes the test to parse errors differently when run in FIAT- or ordinary tests.
-
-[^1]: In GHDL 4.0.0, release does not work properly, thus the FIAT test sequence may have to be moved after the ordinary tests when using this tool (see comments in the code).

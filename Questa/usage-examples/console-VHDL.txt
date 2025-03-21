@@ -1,0 +1,22 @@
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fiat/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /tb_fiat
+# ** Error: count (5) != behavioral model: (2)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_fiat
+# ** Error: count (5) > 4, ** Maximum value exceeded
+#    Time: 50 ns  Iteration: 0  Instance: /tb_fiat
+# ** Error: count (6) != behavioral model: (3)
+#    Time: 120 ns  Iteration: 0  Instance: /tb_fiat
+# ** Error: count (6) > 4, ** Maximum value exceeded
+#    Time: 120 ns  Iteration: 0  Instance: /tb_fiat
+# ** Error: count (7) != behavioral model: (4)
+#    Time: 125 ns  Iteration: 0  Instance: /tb_fiat
+# ** Error: count (7) > 4, ** Maximum value exceeded
+#    Time: 125 ns  Iteration: 0  Instance: /tb_fiat
+# ** Error: count (7) != behavioral model: (4)
+#    Time: 130 ns  Iteration: 0  Instance: /tb_fiat
+# ** Error: count (7) > 4, ** Maximum value exceeded
+#    Time: 130 ns  Iteration: 0  Instance: /tb_fiat
+# Break in Process FAULT_INJECTION at /uio/kant/ifi-ansatt-u02/yngveha/Yngve/Prosjekter/2023/FI-testing/FI-simple/src/tb_min.vhdl line 90

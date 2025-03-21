@@ -1,0 +1,15 @@
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /qcount
+#     60.00ns INFO     cocotb.qcount                      FIAT OK: Max error found @ 45.0ns, count=5, behavioral model = 2
+#    130.00ns INFO     cocotb.qcount                      FIAT OK: Max error found @ 115.0ns, count=6, behavioral model = 3
+#    186.00ns INFO     cocotb.regression                  main_test passed
+#    186.00ns INFO     cocotb.regression                  **************************************************************************************
+#                                                         ** TEST                          STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+#                                                         **************************************************************************************
+#                                                         ** tb_min.main_test               PASS         186.00          45.29          4.11  **
+#                                                         **************************************************************************************
+#                                                         ** TESTS=1 PASS=1 FAIL=0 SKIP=0                186.00          45.76          4.06  **
+#                                                         **************************************************************************************
+#                                                         
+# Simulation halt requested by foreign interface.
