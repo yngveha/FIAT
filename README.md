@@ -4,11 +4,12 @@ The paper will be presented on the Reconfigurable Architectures Workshop (RAW) i
 Link to the paper in IEEE-Xplore will be posted here later. 
 
 ## Versions 
-
 ### GHDL 
 The GHDL folder contains usage examples and the usecase, all set up for GHDL5.0.1, along with cocotb 1.9.2 and python 3.13.
-The usecase is updated to work with the newer python/numpy implementation. 
-The usecase also features a couple fixes to run well with GHDL5.0.1. 
+* The usecase is updated slightly:
+   * Added comments on how to check FIAT reporting and errors 
+   * To work with the newer python/numpy implementation.
+   * A couple fixes to run well with GHDL5.0.1.
 
 ### Questa 
 The questa folder contains usage examples and the usecase, all set up for Questa Sim-64 Version 2020.4 linux_x86_64 Oct 13 2020, along with cocotb 1.9.2 and python 3.11. 
