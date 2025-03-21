@@ -8,8 +8,8 @@ Link to the paper in IEEE-Xplore will be posted here later.
 The GHDL folder contains usage examples and the usecase, all set up for GHDL5.0.1, along with cocotb 1.9.2 and python 3.13.
 * The usecase is updated slightly:
    * Added comments on how to check FIAT reporting and errors 
-   * To work with the newer python/numpy implementation.
-   * A couple fixes to run well with GHDL5.0.1.
+   * Refined one statement to avoid overflow using np.int8 with the newer python/numpy.
+   * Used setimmediatevalue() to avoid persistent forced behavior after ending FIAT-tests in GHDL.
 
 ### Questa 
 The questa folder contains usage examples and the usecase, all set up for Questa Sim-64 Version 2020.4 linux_x86_64 Oct 13 2020, along with cocotb 1.9.2 and python 3.11. 
