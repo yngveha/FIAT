@@ -34,8 +34,7 @@ To provide the ability to test the testbench, a non-synthesizable simulation mod
 The simulation module does model PWM, but neither in a way that would be safe nor according to the assignment text, hence it will trigger and demonstrate error reporting. 
 
 The testbench starts all checkers and performs tests as long as the VHDL files compiles. 
-The testbench has two main tests, FIAT tests and an ordinary test. 
-Ideally the FIAT tests should be completed before the ordinary tests[^1]. 
+The testbench has two main tests, FIAT tests and an ordinary test.  
 Depending on which simulation tool is used, reporting will happen either during or after each test.  
 
 ### Structure of the PWM module testbench
