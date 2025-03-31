@@ -11,6 +11,9 @@ The GHDL folder contains usage examples and the usecase, all set up for GHDL5.0.
    * Refined one statement to avoid overflow using np.int8 with the newer python/numpy.
    * Used setimmediatevalue() to avoid persistent forced behavior after ending FIAT-tests in GHDL.
 
+This version can also be accessed from https://doi.org/10.5281/zenodo.15114023. 
+This also features "apptainer" with all the software needed to run all the testbenches, along with usage instructions. 
+
 ### Questa 
 The questa folder contains usage examples and the usecase, all set up for Questa Sim-64 Version 2020.4 linux_x86_64 Oct 13 2020, along with cocotb 1.9.2 and python 3.11. 
 It is possible to modify this to run using GHDL4.0.0 (se comments in code), but using the updated GHDL version is a better alternative.   
