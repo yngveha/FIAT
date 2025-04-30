@@ -41,6 +41,9 @@ The testbench starts all checkers and performs tests as long as the VHDL files c
 The testbench has two main tests, FIAT tests and an ordinary test.  
 Depending on which simulation tool is used, reporting will happen either during or after each test.  
 
+A video demo of the usecase testbench being run can be found here: 
+* https://www.mn.uio.no/ifi/english/people/aca/yngveha/fiat/demo/fiat-demo.mp4?vrtx=view-as-webpage
+
 ### Structure of the PWM module testbench
 
 The testbench code is organized using classes as follows:
