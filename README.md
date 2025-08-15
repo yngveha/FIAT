@@ -1,7 +1,7 @@
 # Testbench analysis using non-invasive fault injection
-This repository contains the source code presented and discussed in the paper "Testbench analysis using non-invasive fault injection". 
-The paper will be presented on the Reconfigurable Architectures Workshop (RAW) in Milano June 2025. 
-Link to the paper in IEEE-Xplore will be posted here later. 
+This repository contains the source code presented and discussed in the paper "[Testbench analysis using non-invasive fault injection](https://ieeexplore.ieee.org/document/11106058)". 
+The paper was presented on the Reconfigurable Architectures Workshop (RAW) in Milano June 2025. 
+<sub>[Link to the paper in IEEE-Xplore](https://ieeexplore.ieee.org/document/11106058).</sub> 
 
 ## Versions 
 ### GHDL 
