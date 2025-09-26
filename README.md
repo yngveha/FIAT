@@ -59,4 +59,13 @@ These are the methods that will be started by the cocotb environment to use the 
 Central to the FaultInjector is the run method which creates and run through a list of all checks and checking that each error provoked by the FIAT-tests are found. 
 Injected faults that are not observed by the ordinary checkers will be reported as an error.
 
-To have both FIAT-tests and ordinary tests run together, using a queue for assertion errors allowes the test to parse errors differently when run in FIAT- or ordinary tests.
+To have both FIAT-tests and ordinary tests run together, a queue is used for assertion errors to allow the test to parse errors differently when running FIAT- or ordinary tests.
+
+## Transaction level modeling test
+
+To demonstrate the transaction level modeling FIAT-test, go to [TLM test folder](/transaction/test/) and follow the instructions there. 
+This testbench works with the nvc compiler. 
+Using GHDL 5.0.1 will cause the FIAT test to trigger, since one test will not execute, although the tests run.  
+The testbench is otherwise run the same way as the other cocotb based tests. 
+
+<sub>If there are issues try follow the instructions using the apptainer from https://doi.org/10.5281/zenodo.15114023 first, then try with the TLM FIAT-test with GHDL first, then install and run using nvc. </sub>
